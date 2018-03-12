@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components Main should render self and subcomponents 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <UNDEFINED
+          onChangeText={[Function]}
+          placeholder="who are thee"
+        />,
+        <UNDEFINED>
+          Who?
+        </UNDEFINED>,
+        <UNDEFINED
+          button={true}
+          style={
+            Object {
+              "width": 225,
+            }
+          }
+          title="Sign In With Facebook"
+          type="facebook"
+        />,
+        <about
+          aboutText="We are a happy people"
+        />,
+        <UNDEFINED
+          source={
+            Object {
+              "testUri": "../../../2-Hot-Home-icon.png",
+            }
+          }
+          style={
+            Object {
+              "height": 200,
+              "width": 200,
+            }
+          }
+        />,
+        <Progress
+          amount={0}
+        />,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "justifyContent": "center",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onChangeText": [Function],
+          "placeholder": "who are thee",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": undefined,
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Who?",
+        },
+        "ref": null,
+        "rendered": "Who?",
+        "type": undefined,
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "button": true,
+          "style": Object {
+            "width": 225,
+          },
+          "title": "Sign In With Facebook",
+          "type": "facebook",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": undefined,
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "aboutText": "We are a happy people",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "source": Object {
+            "testUri": "../../../2-Hot-Home-icon.png",
+          },
+          "style": Object {
+            "height": 200,
+            "width": 200,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": undefined,
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "amount": 0,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": undefined,
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <UNDEFINED
+            onChangeText={[Function]}
+            placeholder="who are thee"
+          />,
+          <UNDEFINED>
+            Who?
+          </UNDEFINED>,
+          <UNDEFINED
+            button={true}
+            style={
+              Object {
+                "width": 225,
+              }
+            }
+            title="Sign In With Facebook"
+            type="facebook"
+          />,
+          <about
+            aboutText="We are a happy people"
+          />,
+          <UNDEFINED
+            source={
+              Object {
+                "testUri": "../../../2-Hot-Home-icon.png",
+              }
+            }
+            style={
+              Object {
+                "height": 200,
+                "width": 200,
+              }
+            }
+          />,
+          <Progress
+            amount={0}
+          />,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onChangeText": [Function],
+            "placeholder": "who are thee",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": undefined,
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Who?",
+          },
+          "ref": null,
+          "rendered": "Who?",
+          "type": undefined,
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "button": true,
+            "style": Object {
+              "width": 225,
+            },
+            "title": "Sign In With Facebook",
+            "type": "facebook",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": undefined,
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "aboutText": "We are a happy people",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "source": Object {
+              "testUri": "../../../2-Hot-Home-icon.png",
+            },
+            "style": Object {
+              "height": 200,
+              "width": 200,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": undefined,
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "amount": 0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": undefined,
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

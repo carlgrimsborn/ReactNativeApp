@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "icon": "./2-Hot-Home-icon.png",
+    "primaryColor": "#ffde00",
+    "name": "Hus"
+  }
+}
