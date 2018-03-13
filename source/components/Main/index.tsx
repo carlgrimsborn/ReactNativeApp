@@ -11,13 +11,14 @@ import {
 import About from '../About';
 import Progress from '../Progress';
 import { Actions } from 'react-native-router-flux';
+import * as types from '../../Types';
 
 interface IState {
     userName: string;
     amountClicks: number;
 }
 
-export default class Main extends Component<{}, IState> {
+export default class Main extends Component<types.IProps, IState> {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -26,6 +27,9 @@ export default class Main extends Component<{}, IState> {
     };
   }
   componentDidMount() {
+    // if (!this.props.login.isLoggedIn) {
+
+    // }
     Actions.push('login');
   }
   onTextChange(newText: string) {

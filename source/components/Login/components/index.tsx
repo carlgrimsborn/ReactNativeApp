@@ -26,9 +26,10 @@ export class Login extends React.Component<types.IProps, {}> {
                 <View style={{padding: 10, flex: 1}}>
                     <Text>Login</Text>
                     <SocialIcon
+                        // style = {{width: 300, height: 100}}
                         title='Sign In With Facebook'
                         button
-                        onPress={this.facebookLogin}
+                        // onPress={this.facebookLogin}
                         type='facebook'
                         />
                     <TextInput
