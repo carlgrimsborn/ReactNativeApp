@@ -1,5 +1,5 @@
-import * as login from './login/types';
-import { FacebookLogin } from './login/actions/index';
+import * as login from './components/Login/types';
+import { FacebookLogin } from './components/Login/actions/index';
 
 /**
  * The global application state as contained in Redux
@@ -25,5 +25,5 @@ export interface IApplicationState {
 
 export interface IProps extends IApplicationState {
     dispatch?: any;
-    FacebookLogin: login.FacebookLogin;
+    FacebookLogin?: login.FacebookLogin;
 }

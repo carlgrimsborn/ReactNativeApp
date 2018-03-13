@@ -2,10 +2,10 @@
 /// <reference types="jest"/>
 import React from 'react';
 import { shallow } from 'enzyme';
-import Progress from '../Progress';
+import Progress from '../../Progress';
 import { TextInput } from 'react-native';
 
-import Login from './index';
+import { Login } from './index';
 
 jest.unmock('react-native');
 

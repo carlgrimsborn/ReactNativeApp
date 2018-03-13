@@ -1,4 +1,4 @@
-import { SocialIcon } from 'react-native-elements';
+
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -42,13 +42,6 @@ export default class Main extends Component<{}, IState> {
           onChangeText={text => this.onTextChange(text)}
         />
         <Text>{this.state.userName}</Text>
-
-        <SocialIcon
-          style={{ width: 225 }}
-          title='Sign In With Facebook'
-          button
-          type='facebook'
-        />
         <About aboutText='We are a happy people' />
         <Image
           style={{ width: 200, height: 200 }}

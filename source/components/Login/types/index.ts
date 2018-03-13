@@ -15,13 +15,13 @@ export type FacebookLogin = typeof FacebookLogin;
  * @property {string} type - Facebook, Google etc
  * @public
  */
+
 export interface IUser {
     accessToken: string;
     name: string;
     picture?: string;
     type: string;
   }
-
   /**
    * LoginReducer constant string keys
    *

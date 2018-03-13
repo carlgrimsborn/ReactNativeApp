@@ -6,8 +6,7 @@ import {
 // @ts-ignore - bad mappings
 } from '@expo/vector-icons';
 import Main from '../Main';
-import Login from '../Login';
-
+import Login from '../Login/components/index';
 
 const mainIcon = () => (
     <FontAwesome name='map-o' size={12} style={{color: 'white'}} />
