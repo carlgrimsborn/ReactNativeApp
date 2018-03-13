@@ -1,3 +1,6 @@
+import * as login from './login/types';
+import { FacebookLogin } from './login/actions/index';
+
 /**
  * The global application state as contained in Redux
  *
@@ -8,7 +11,8 @@
  */
 
 export interface IApplicationState {
-
+    // route?: navTypes.INavigationState;
+    login?: login.ILoginState;
 }
 /**
  * Describes possible props for a components.
@@ -20,5 +24,6 @@ export interface IApplicationState {
  */
 
 export interface IProps extends IApplicationState {
-
+    dispatch?: any;
+    FacebookLogin: login.FacebookLogin;
 }

@@ -3,9 +3,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Progress from '../Progress';
-import {TextInput} from 'react-native';
+import { TextInput } from 'react-native';
 
-import Login from './';
+import Login from './index';
+
+jest.unmock('react-native');
 
 function setup() {
   const props = {
@@ -35,9 +37,8 @@ describe('components', () => {
       const textOutput1 = enzymeWrapper.find(TextInput).at(0).props();
       expect(textOutput1.placeholder).toBe('Username');
 
-      // Test Login
-         const textOutput2 = enzymeWrapper.find(TextInput).at(1).props();
-         expect(textOutput2.placeholder).toBe('Password');
+      const textOutput2 = enzymeWrapper.find(TextInput).at(1).props();
+      expect(textOutput2.placeholder).toBe('Password');
 
     });
   });
