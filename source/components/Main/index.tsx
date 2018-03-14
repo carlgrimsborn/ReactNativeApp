@@ -1,4 +1,4 @@
-
+// Main/index
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,13 +12,14 @@ import About from '../About';
 import Progress from '../Progress';
 import { Actions } from 'react-native-router-flux';
 import * as types from '../../Types';
+import { connect } from 'react-redux';
 
 interface IState {
     userName: string;
     amountClicks: number;
 }
 
-export default class Main extends Component<types.IProps, IState> {
+export class Main extends Component<types.IProps, IState> {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -27,10 +28,9 @@ export default class Main extends Component<types.IProps, IState> {
     };
   }
   componentDidMount() {
-    // if (!this.props.login.isLoggedIn) {
-
-    // }
-    Actions.push('login');
+    if (!this.props.login.isLoggedIn) {
+      Actions.push('login');
+    }
   }
   onTextChange(newText: string) {
     this.setState({
@@ -66,3 +66,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default connect()(Main);

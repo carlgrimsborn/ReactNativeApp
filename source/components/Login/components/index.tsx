@@ -1,3 +1,4 @@
+// login/components/index
 import React from 'react';
 import { View, Text, TextInput } from 'react-native';
 import { Actions } from 'react-native-router-flux';
@@ -29,7 +30,7 @@ export class Login extends React.Component<types.IProps, {}> {
                         // style = {{width: 300, height: 100}}
                         title='Sign In With Facebook'
                         button
-                        // onPress={this.facebookLogin}
+                        onPress={this.facebookLogin}
                         type='facebook'
                         />
                     <TextInput
